@@ -1,6 +1,6 @@
 {
   "name": "@komefumi/html-template-tag",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple html template tag function - useful to get your code editor to provide html syntax highlighting, formatting, and plugin functionality within the template strings",
   "type": "module",
   "main": "dist/simple-html-template-tag.esm.js",
