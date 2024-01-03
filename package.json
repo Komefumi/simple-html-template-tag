@@ -1,0 +1,28 @@
+{
+  "name": "simple-html-template-tag",
+  "version": "0.0.1",
+  "description": "A simple html template tag function - useful to get your code editor to provide html syntax highlighting, formatting, and plugin functionality within the template strings",
+  "type": "module",
+  "main": "dist/simple-html-template-tag.cjs.js",
+  "module": "dist/simple-html-template-tag.esm.js",
+  "browser": "dist/simple-html-template-tag.umd.js",
+  "types": "dist/simple-html-template-tag.d.ts",
+  "scripts": {
+    "test": "node test/test.mjs",
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "HTML",
+    "template-tag",
+    "template-tag-function"
+  ],
+  "author": "Komefumi <komefumi@protonmail.ch>",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.9.2",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-esbuild": "^6.1.0"
+  }
+}
