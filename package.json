@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A simple html template tag function - useful to get your code editor to provide html syntax highlighting, formatting, and plugin functionality within the template strings",
   "type": "module",
-  "main": "dist/simple-html-template-tag.cjs.js",
+  "main": "dist/simple-html-template-tag.js",
   "module": "dist/simple-html-template-tag.esm.js",
   "browser": "dist/simple-html-template-tag.umd.js",
   "types": "dist/simple-html-template-tag.d.ts",

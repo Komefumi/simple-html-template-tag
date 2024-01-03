@@ -26,6 +26,17 @@ export default [
         sourcemap: true,
       },
       {
+        file: `${name}.esm.js`,
+        format: "esm",
+        sourcemap: true,
+      },
+      {
+        file: `${name}.umd.js`,
+        name: "simpleHtmlTemplateTag",
+        format: "umd",
+        sourcemap: true,
+      },
+      {
         file: `${name}.mjs`,
         format: "es",
         sourcemap: true,
