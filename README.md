@@ -1,6 +1,16 @@
 # Simple HTML Template Tag
 
-A simple utility function. Bundled for different environments using Rollup, and making use of TypeScript. Usage is as follows:
+A simple utility function. Bundled for different environments using Rollup, and making use of TypeScript.
+
+## Usage
+
+First install:
+
+```bash
+npm install @komefumi/html-template-tag
+```
+
+Usage is as follows:
 
 ```typescript
 import html from "simple-html-template-tag";
