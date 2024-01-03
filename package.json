@@ -1,6 +1,6 @@
 {
   "name": "@komefumi/html-template-tag",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple html template tag function - useful to get your code editor to provide html syntax highlighting, formatting, and plugin functionality within the template strings",
   "type": "module",
   "main": "dist/simple-html-template-tag.esm.js",
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@komefumi:Komefumi/simple-html-template-tag.git"
+    "url": "git@github.com:Komefumi/simple-html-template-tag.git"
   },
   "dependencies": {
     "ansi-styles": "^3.2.1",
