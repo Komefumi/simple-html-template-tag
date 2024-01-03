@@ -2,7 +2,7 @@ import dts from "rollup-plugin-dts";
 import esbuild from "rollup-plugin-esbuild";
 import pkg from "./package.json" assert { type: "json" };
 
-const name = pkg.main.replace(/\.js$/, "");
+const name = pkg.main.replace(/\.esm\.js$/, "");
 
 /**
  * @param {import('rollup').RollupOptions} config

@@ -3,13 +3,13 @@
   "version": "0.0.1",
   "description": "A simple html template tag function - useful to get your code editor to provide html syntax highlighting, formatting, and plugin functionality within the template strings",
   "type": "module",
-  "main": "dist/simple-html-template-tag.js",
+  "main": "dist/simple-html-template-tag.esm.js",
   "module": "dist/simple-html-template-tag.esm.js",
   "browser": "dist/simple-html-template-tag.umd.js",
   "types": "dist/simple-html-template-tag.d.ts",
   "scripts": {
     "test": "node test/test.mjs",
-    "build": "rollup -c"
+    "build": "rimraf dist && rollup -c"
   },
   "keywords": [
     "HTML",
@@ -21,6 +21,7 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
+    "rimraf": "^5.0.5",
     "rollup": "^4.9.2",
     "rollup-plugin-dts": "^6.1.0",
     "rollup-plugin-esbuild": "^6.1.0"
